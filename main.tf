@@ -1,12 +1,5 @@
 terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "jake-lundberg"
-
-    workspaces {
-      prefix = "ec2-instance-modtest-"
-    }
-  }
+  backend "remote" {}
 }
 
 module "ec2_instance" {
