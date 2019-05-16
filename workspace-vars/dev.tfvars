@@ -1,1 +1,1 @@
-instance_type = "t2.micro"
+instance_type = "m4.xlarge"
